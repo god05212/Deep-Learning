@@ -25,28 +25,28 @@ Chest X-Ray Images (Pneumonia)
 <br/>
 
 ## 프로젝트 수행 과정
-- 데이터 directory의 경로를 정의합니다.  
-- 랜덤 일반 사진을 플로팅합니다.
-- 무작위 폐렴 사진을 플로팅합니다.
-- 긍정 사례와 부정 사례의 수를 표시합니다.
-- Convnet을 초기화합니다.
-- layers를 추가하여 정의합니다.
-- Convnet을 컴파일합니다.
-- Convnet을 train합니다.
-- test set에서 테스트합니다.
-- Accuracy를 평가합니다.
+- 데이터 directory의 경로를 정의하였습니다.  
+- 랜덤 일반 사진을 플로팅하였습니다.
+- 무작위 폐렴 사진을 플로팅하였습니다.
+- 긍정 사례와 부정 사례의 수를 표시하였습니다.
+- Convnet을 초기화하였습니다.
+- layers를 추가하여 정의하였습니다.
+- Convnet을 컴파일하였습니다.
+- Convnet을 train하였습니다.
+- test set에서 테스트하였습니다.
+- Accuracy를 평가하였습니다.
 <br/>
 
 ## 모델의 test dataset에 대한 accuracy (소숫점 다섯 째 자리에서 반올림)
 | Model | accuracy |
 |:----------------------------------------|:-------|
-| Convolutional neural network            | 0.8750 |
+| Convolutional neural network            | 0.8798 |
 <br/>
 
 ## 최종 모델
 Convolutional neural network
 - test dataset에 대한 결과
-    - accuracy: 약 0.8751
+    - accuracy: 약 0.8798
 <br/>
 
 ## 결론
