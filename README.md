@@ -17,27 +17,36 @@ Chest X-Ray Images (Pneumonia)
 
 위 데이터셋은 3개의 폴더(train, test, val)로 구성되며 각 이미지 범주(Pneumonia/Normal)에 대한 하위 폴더를 포함합니다. 5,863개의 X-Ray 사진(JPEG)와 2개의 카테고리(Pneumonia/Normal)가 있습니다. 흉부 X-Ray 사진(전후방)은 광저우 여성 아동 의료 센터의 1~5세 소아 환자의 회고록에서 선택되었습니다. 모든 흉부 X-Ray 사진은 환자의 임상 치료 일환으로 수행되었습니다. 흉부 X-Ray 이미지 분석을 위해 모든 흉부 X-Ray 사진은 초기에 저품질 또는 판독 불가능한 스캔을 모두 제거하여 품질 관리를 위해 선별되었습니다. 그런 다음 이미지에 대한 진단은 AI 시스템 훈련을 위해 승인되기 전에 두 명의 전문 의사에 의해 등급이 매겨졌습니다. 채점 오류를 설명하기 위해 세 번째 전문가도 평가 세트를 확인했습니다.  
 <br/>
-## 프로젝트 수행 과정
+## 프로젝트 목록
 1. LOADING DATA  
-    - 데이터 directory의 경로를 정의합니다.  
 2. DATA VISUALIZATION  
-    - 랜덤 일반 사진을 플로팅합니다.
-    - 무작위 폐렴 사진을 플로팅합니다.
-    - 긍정 사례와 부정 사례의 수를 표시합니다.
 3. MODEL BUILDING  
-    - Convnet을 초기화합니다.
-    - layers를 추가하여 정의합니다.
-    - Convnet을 컴파일합니다.
-    - Convnet을 train합니다.
 4. CONCLUSION  
-    - test set에서 테스트합니다.
-    - Accuracy를 평가합니다.
+<br/>
+
+## 프로젝트 수행 과정
+- 데이터 directory의 경로를 정의합니다.  
+- 랜덤 일반 사진을 플로팅합니다.
+- 무작위 폐렴 사진을 플로팅합니다.
+- 긍정 사례와 부정 사례의 수를 표시합니다.
+- Convnet을 초기화합니다.
+- layers를 추가하여 정의합니다.
+- Convnet을 컴파일합니다.
+- Convnet을 train합니다.
+- test set에서 테스트합니다.
+- Accuracy를 평가합니다.
+<br/>
+
 ## 모델의 test dataset에 대한 accuracy (소숫점 다섯 째 자리에서 반올림)
 | Model | accuracy |
 |:----------------------------------------|:-------|
 | Convolutional neural network            | 0.8750 |
+<br/>
+
 ## 최종 모델
 Convolutional neural network
 - test dataset에 대한 결과
     - accuracy: 약 0.8751
+<br/>
+
 ## 결론
