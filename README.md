@@ -37,10 +37,10 @@ Chest X-Ray Images (Pneumonia)
 ## 모델의 test dataset에 대한 accuracy (소숫점 다섯 째 자리에서 반올림)
 | Model | accuracy |
 |:----------------------------------------|:-------|
-| Convolutional neural network            | 0.8798 |
+| Convolutional neural network            | 0.8894 |
 <br/>
 
 ## 최종 모델
 Convolutional neural network
 - test dataset에 대한 결과
-    - accuracy: 약 0.8798
+    - accuracy: 약 0.8894
